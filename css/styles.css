@@ -1,6 +1,142 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+.list {
+  list-style: none;
+}
+.link {
+  color: #212121;
+  text-decoration: none;
+}
+.link:focus,
+.link:hover {
+  color: #2196f3;
+}
+/*main header styles below*/
+.logohead {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 26px;
+  color: #000000;
+}
+.logohead > span {
+  color: #2196f3;
+}
+.navigation {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+}
+.opened {
+  color: #2196f3;
+}
+.mail {
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 500;
+}
+/*telephone style below*/
+.tel {
+  color: #757575;
+}
+.telfont {
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 500;
+}
+.telfontfoot {
+  font-size: 14px;
+  line-height: 1.7;
+  font-weight: 400;
+}
+.tel:hover {
+  color: #2196f3;
+}
+.tel:focus {
+  color: #2196f3;
+}
+/*business section або Ефективні рішення style below*/
+.bussiness {
+  background-color: #2f303a;
+}
+.bussiness h1 {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.4;
+  color: #ffffff;
+}
+.bussiness button {
+  cursor: pointer;
+  background-color: #2196f3;
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1.9;
+}
+/*features або Особливості style below*/
+.features {
+}
+.features h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.features p {
+  font-size: 14px;
+  line-height: 1.7;
+}
+/*studio affairs або Чим ми займаємося style below*/
+.studioaffairs {
+}
+.studioaffairs h2 {
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 36px;
+  /*our team styles below*/
+}
+.team {
+  background-color: #f5f4fa;
+  color: #212121;
+}
+.team h2 {
+  font-weight: 700;
+  line-height: 1.2;
+  font-size: 36px;
+}
+.team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.team p {
+  color: #757575;
+  line-height: 1.2;
+  font-size: 16px;
+}
+/*main portfolio stle below*/
+.portfolio {
+}
+.portfolio h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.portfolio p {
+  font-size: 16px;
+  line-height: 1.9;
+}
+.portfolio button {
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.6;
+  font-size: 16px;
+}
+.portfolio button:hover,
+.portfolio button:focus {
+  background: #2196f3;
+  color: #ffffff;
+}
+/*main footer styles below*/
 .footback {
   background-color: #2f303a;
 }
@@ -27,128 +163,18 @@ body {
 .footlink-blank:focus {
   color: #2196f3;
 }
-.logohead {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  color: #000000;
-}
 .logofoot {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
+  line-height: 1.2;
   font-weight: 700;
   color: #ffffff;
-}
-.logohead > span {
-  color: #2196f3;
 }
 .logofoot > span {
   color: #2196f3;
 }
-.navigation {
-  color: #212121;
-  font-weight: 500;
-  font-size: 14px;
-}
-.opened {
-  color: #2196f3;
-}
-.team {
-  background-color: #f5f4fa;
-  color: #212121;
-}
-.team h2 {
-  font-weight: 700;
-  font-size: 36px;
-}
-.team h3 {
-  font-weight: 500;
-  font-size: 16px;
-}
-.team p {
-  color: #757575;
-  font-weight: 400;
-  font-size: 16px;
-}
-.tel {
-  color: #757575;
-}
-.telfont {
-  font-size: 14px;
-  font-weight: 500;
-}
-.telfontfoot {
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.tel:hover {
-  color: #2196f3;
-}
-.tel:focus {
-  color: #2196f3;
-}
-.bussiness {
-  background-color: #2f303a;
-}
-.bussiness h1 {
-  font-size: 44px;
-  font-weight: 900;
-  color: #ffffff;
-}
-.bussiness button {
-  cursor: pointer;
-  background-color: #2196f3;
-  color: #ffffff;
-  font-weight: 700;
-}
-.link {
-  color: #212121;
-}
-.link:hover {
-  color: #2196f3;
-}
-.link:focus {
-  color: #2196f3;
-}
-.studioaffairs {
-}
-.studioaffairs h2 {
-  font-weight: 700;
-  font-size: 36px;
-}
-.features {
-}
-.features h3 {
-  font-weight: 700;
-  font-size: 14px;
-}
-.features p {
-  font-size: 14px;
-}
-.mail {
-  font-size: 14px;
-  font-weight: 500;
-}
 .mailfoot {
   font-size: 14px;
+  line-height: 1.7;
   font-weight: 400;
-}
-.portfolio {
-}
-.portfolio h3 {
-  font-weight: 700;
-  font-size: 18px;
-}
-.portfolio p {
-  font-size: 16px;
-}
-.portfolio button {
-  cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-}
-.buttonactive {
-  background: #2196f3;
-  color: #ffffff;
 }
