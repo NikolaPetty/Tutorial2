@@ -1,3 +1,13 @@
+:root {
+  --blue: #2196f3;
+  --white: #ffffff;
+  --black: #000000;
+  --grey: #757575;
+  --background-grey: #2f303a;
+  --background-lightgrey: #f5f4fa;
+  --light-grey: #ffffff99;
+  --light-black: #212121;
+}
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -5,12 +15,12 @@ body {
   list-style: none;
 }
 .link {
-  color: #212121;
+  color: var(--light-black);
   text-decoration: none;
 }
 .link:focus,
 .link:hover {
-  color: #2196f3;
+  color: var(--blue);
 }
 /*main header styles below*/
 .logohead {
@@ -18,18 +28,18 @@ body {
   font-weight: 700;
   line-height: 1.2;
   font-size: 26px;
-  color: #000000;
+  color: var(--black);
 }
 .logohead > span {
-  color: #2196f3;
+  color: var(--blue);
 }
 .navigation {
-  color: #212121;
+  color: var(--light-black);
   font-weight: 500;
   font-size: 14px;
 }
 .opened {
-  color: #2196f3;
+  color: var(--blue);
 }
 .mail {
   font-size: 14px;
@@ -38,7 +48,7 @@ body {
 }
 /*telephone style below*/
 .tel {
-  color: #757575;
+  color: var(--grey);
 }
 .telfont {
   font-size: 14px;
@@ -51,25 +61,25 @@ body {
   font-weight: 400;
 }
 .tel:hover {
-  color: #2196f3;
+  color: var(--blue);
 }
 .tel:focus {
-  color: #2196f3;
+  color: var(--blue);
 }
 /*business section або Ефективні рішення style below*/
 .bussiness {
-  background-color: #2f303a;
+  background-color: var(--background-grey);
 }
 .bussiness h1 {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.4;
-  color: #ffffff;
+  color: var(--white);
 }
 .bussiness button {
   cursor: pointer;
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--blue);
+  color: var(--white);
   font-weight: 700;
   line-height: 1.9;
 }
@@ -95,8 +105,8 @@ body {
   /*our team styles below*/
 }
 .team {
-  background-color: #f5f4fa;
-  color: #212121;
+  background-color: var(--background-lightgrey);
+  color: var(--light-black);
 }
 .team h2 {
   font-weight: 700;
@@ -109,7 +119,7 @@ body {
   line-height: 1.2;
 }
 .team p {
-  color: #757575;
+  color: var(--grey);
   line-height: 1.2;
   font-size: 16px;
 }
@@ -133,45 +143,45 @@ body {
 }
 .portfolio button:hover,
 .portfolio button:focus {
-  background: #2196f3;
-  color: #ffffff;
+  background: var(--blue);
+  color: var(--white);
 }
 /*main footer styles below*/
 .footback {
-  background-color: #2f303a;
+  background-color: var(--background-grey);
 }
 .footfont {
   font-style: normal;
   font-weight: 400;
-  color: #ffffff;
+  color: var(--white);
 }
 .footlink {
-  color: #ffffff;
+  color: var(--white);
 }
 .footlink:hover {
-  color: #2196f3;
+  color: var(--blue);
 }
 .footlink:focus {
-  color: #2196f3;
+  color: var(--blue);
 }
 .footlink-blank {
-  color: #ffffff99;
+  color: var(--light-grey);
 }
 .footlink-blank:hover {
-  color: #2196f3;
+  color: var(--blue);
 }
 .footlink-blank:focus {
-  color: #2196f3;
+  color: var(--blue);
 }
 .logofoot {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.2;
   font-weight: 700;
-  color: #ffffff;
+  color: var(--white);
 }
 .logofoot > span {
-  color: #2196f3;
+  color: var(--blue);
 }
 .mailfoot {
   font-size: 14px;
