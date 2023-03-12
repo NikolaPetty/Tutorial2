@@ -1,0 +1,154 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.footback {
+  background-color: #2f303a;
+}
+.footfont {
+  font-style: normal;
+  font-weight: 400;
+  color: #ffffff;
+}
+.footlink {
+  color: #ffffff;
+}
+.footlink:hover {
+  color: #2196f3;
+}
+.footlink:focus {
+  color: #2196f3;
+}
+.footlink-blank {
+  color: #ffffff99;
+}
+.footlink-blank:hover {
+  color: #2196f3;
+}
+.footlink-blank:focus {
+  color: #2196f3;
+}
+.logohead {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: #000000;
+}
+.logofoot {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.logohead > span {
+  color: #2196f3;
+}
+.logofoot > span {
+  color: #2196f3;
+}
+.navigation {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+}
+.opened {
+  color: #2196f3;
+}
+.team {
+  background-color: #f5f4fa;
+  color: #212121;
+}
+.team h2 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.team h3 {
+  font-weight: 500;
+  font-size: 16px;
+}
+.team p {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+}
+.tel {
+  color: #757575;
+}
+.telfont {
+  font-size: 14px;
+  font-weight: 500;
+}
+.telfontfoot {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.tel:hover {
+  color: #2196f3;
+}
+.tel:focus {
+  color: #2196f3;
+}
+.bussiness {
+  background-color: #2f303a;
+}
+.bussiness h1 {
+  font-size: 44px;
+  font-weight: 900;
+  color: #ffffff;
+}
+.bussiness button {
+  cursor: pointer;
+  background-color: #2196f3;
+  color: #ffffff;
+  font-weight: 700;
+}
+.link {
+  color: #212121;
+}
+.link:hover {
+  color: #2196f3;
+}
+.link:focus {
+  color: #2196f3;
+}
+.studioaffairs {
+}
+.studioaffairs h2 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.features {
+}
+.features h3 {
+  font-weight: 700;
+  font-size: 14px;
+}
+.features p {
+  font-size: 14px;
+}
+.mail {
+  font-size: 14px;
+  font-weight: 500;
+}
+.mailfoot {
+  font-size: 14px;
+  font-weight: 400;
+}
+.portfolio {
+}
+.portfolio h3 {
+  font-weight: 700;
+  font-size: 18px;
+}
+.portfolio p {
+  font-size: 16px;
+}
+.portfolio button {
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+}
+.buttonactive {
+  background: #2196f3;
+  color: #ffffff;
+}
