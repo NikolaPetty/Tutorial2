@@ -85,6 +85,8 @@ body {
   font-weight: 900;
   line-height: 1.4;
   color: var(--white);
+  text-transform: uppercase;
+  text-align: center;
 }
 .bussiness button {
   cursor: pointer;
