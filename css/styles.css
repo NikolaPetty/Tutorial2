@@ -104,6 +104,7 @@ body {
 .features p {
   font-size: 14px;
   line-height: 1.7;
+  color: var(--grey);
 }
 /*studio affairs або Чим ми займаємося style below*/
 .studioaffairs {
